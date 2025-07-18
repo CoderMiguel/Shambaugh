@@ -1,6 +1,18 @@
 require_relative "boot"
 
-require "rails/all"
+# require "rails/all"
+
+# Instead, require only the frameworks you need:
+require "action_controller/railtie"
+require "action_view/railtie"
+require "action_mailer/railtie"
+# require "active_job/railtie" # If you use Active Job
+# require "active_record/railtie" # REMOVE OR COMMENT OUT THIS LINE
+# require "active_storage/engine" # If you use Active Storage
+# require "action_cable/engine" # If you use Action Cable
+# require "rails/test_unit/railtie" # If you use Minitest
+# require "sprockets/railtie" # If you use the Asset Pipeline
+# require "action_text/engine" # If you use Action Text
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
