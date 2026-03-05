@@ -39,6 +39,8 @@ gem "bootsnap", require: false
 group :development, :test do
   gem "capybara"
   gem "cuprite"
+  gem "site_prism"
+  gem "nokogiri"
   gem "pry-rails"
   # gem "selenium-webdriver"
   # # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -58,7 +60,5 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  # gem "capybara"
-  # gem "cuprite"
   # gem "selenium-webdriver"
 end
